@@ -1,0 +1,217 @@
+/* all common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css */
+
+
+/* header part start  */
+.navbar {
+	
+	background: rgba(229, 116, 93, 0.13);
+    border-bottom:1px solid #D3DCD4;
+}
+.navbar-brand {
+	width: 20%;
+}
+.navbar .nav-item .nav-link {
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #00413D;
+    
+}
+.nav-item i{
+    border-right: 1px solid ;
+    padding:0 10px;
+    color: #00413D;
+}
+#menu_bar{
+    border: none;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #E5745D;
+}
+/* header part end  */
+
+
+
+
+
+
+
+/* banner part start  */
+#banner_part{
+    background: rgba(229, 116, 93, 0.096);
+}
+.col-lg-7 h3{
+color: #EF8100;
+     font-weight: 500;
+    font-size: 18px;
+   padding-top: 220px;
+    line-height: 28px;
+    font-family: "Vollkorn", serif;
+
+    
+}
+
+.col-lg-7 h1{
+     color: #00413D;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    width: 890px;
+   line-height: 150px;
+}
+.col-lg-7 h2{
+    
+     color: #00413D;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+   
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.col-lg-7 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;    
+    line-height: 30px;
+    color: #00413D;
+    padding-right: 330px;
+    padding-bottom: 40px;
+}
+.col-lg-7{
+    padding-bottom: 250px;
+}
+.col-lg-7 h4{
+    color: #f37258;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    border-bottom:1px solid #f37258;
+    width: 330px;
+   padding-bottom: 10px;
+}
+
+.col-lg-4{
+    margin-top: 80px;
+    margin-right: 0;
+}
+._profilo{
+    background:url(../images/shape.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 549px;
+   width: 524px;
+}
+._profilone{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+._profilone img{
+  width: 411px;
+  height: 467px;
+  
+}
+
+
+
+/* banner part end  */
+
+
+/* service part start  */
+.col-log-4 h4 {
+    color: #EF8100;
+     font-weight: 500;
+    font-size: 18px;
+   padding-top: 120px;
+    line-height: 28px;
+    font-family: "Vollkorn", serif;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.row2{
+    display: flex;
+}
+.col-log-4 h3{
+    color: #00413D;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    width: 890px;
+    line-height: 65px;
+}
+.col-log-7 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;    
+    line-height: 28px;
+    color: #00413D;
+    width: 350px;
+    padding-bottom: 20px;
+   
+}
+.col-log-7{
+    padding-top: 400px;
+}
+.service_btn {
+   margin-top: 50px;
+}
+.box{
+    background: #E5745D;
+    height: 68px;
+    width: 198px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.box_btn{
+    border: 1px solid white;
+    width: 190px;
+    height: 60px;
+    padding-top: 15px;
+   
+   
+}
+.box_btn a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    line-height: 12px;
+}
+
+/* service part end  */
+
+
+/* header part start  */
+
+/* header part end  */
+/* header part start  */
+
+/* header part end  */
+/* header part start  */
+
+/* header part end  */
+
